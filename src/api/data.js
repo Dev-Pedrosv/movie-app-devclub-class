@@ -37,9 +37,9 @@ export const apiData = {
       description:
         "Depois de mais de 30 anos de serviço como um dos principais aviadores da Marinha, Pete 'Maverick' Mitchell está de volta, rompendo os limites como um piloto de testes corajoso. No mundo contemporâneo das guerras tecnológicas, Maverick enfrenta drones e prova que o fator humano ainda é essencial.",
       imageSmall:
-        "http://m.gettywallpapers.com/wp-content/uploads/2021/09/Top-Gun-Maverick-Wallpaper-576x1024.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLwLcGilpZtu8bCySl48IJJ3mvQGfen9HWiyIUc1A9HEFClsfLHar0FKSlirVEf_xABR4&usqp=CAU",
       imageBanner:
-        "http://m.gettywallpapers.com/wp-content/uploads/2021/09/Top-Gun-Maverick-Wallpapers-1024x576.jpg",
+        "https://ntvb.tmsimg.com/assets/p14325539_v_h8_aj.jpg?w=960&h=540",
       linkVideo: "7aOCYTflp8o",
     },
     {
@@ -78,7 +78,7 @@ export const apiData = {
       description:
         "Após formar uma família, Jake Sully e Ney'tiri fazem de tudo para ficarem juntos. No entanto, eles devem sair de casa e explorar as regiões de Pandora quando uma antiga ameaça ressurge, e Jake deve travar uma guerra difícil contra os humanos.",
       imageSmall:
-        "http://m.gettywallpapers.com/wp-content/uploads/2022/05/Avatar-2-The-Way-of-Water-Wallpaper.jpg",
+        "https://br.web.img2.acsta.net/c_310_420/pictures/22/05/09/16/16/3197518.jpg",
       imageBanner:
         "https://www.showmetech.com.br/wp-content/uploads//2022/12/Avatar-2-encanta-com-novas-imagens-reveladas-1280x720-1.webp",
       linkVideo: "QxJQbWOIK4s",

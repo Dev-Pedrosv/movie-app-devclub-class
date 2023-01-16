@@ -19,58 +19,44 @@ export const Movies = ({ movies, handleVideo }) => {
     },
   };
 
+  const getMovies = (category) => {
+    return category ? movies[category] : [];
+  };
+
+  const getAllMovies = () => {
+    return [...movies?.movies, ...movies?.tvShows];
+  };
+
   return (
     <C.Container>
-      <C.Text id="Movies">Movies</C.Text>
-
-      <Carousel responsive={responsive}>
-        {movies?.movies?.map((data, index) => {
-          return (
-            <C.Movie
-              onClick={() => handleVideo(data)}
-              src={data.imageSmall}
-              key={index}
-              alt="movie"
-            />
-          );
-        })}
-      </Carousel>
-
-      <C.Text id="TVShows">TV Shows</C.Text>
-
-      <Carousel responsive={responsive}>
-        {movies?.tvShows?.map((data, index) => {
-          return (
-            <C.Movie
-              onClick={() => handleVideo(data)}
-              src={data.imageSmall}
-              key={index}
-              alt="movie"
-            />
-          );
-        })}
-      </Carousel>
+      {movies?.categories.map((category) => (
+        <>
+          <C.Text key={category?.name} id="category">
+            {category?.name}
+          </C.Text>
+          <Carousel responsive={responsive}>
+            {getMovies(category?.type)?.map((data, index) => (
+              <C.Movie
+                onClick={() => handleVideo(data)}
+                src={data.imageSmall}
+                key={index}
+                alt={data?.title}
+              />
+            ))}
+          </Carousel>
+        </>
+      ))}
 
       <C.Text id="All">All</C.Text>
 
       <Carousel responsive={responsive}>
-        {movies?.movies?.map((data, index) => {
+        {getAllMovies().map((data, index) => {
           return (
             <C.Movie
               onClick={() => handleVideo(data)}
               src={data.imageSmall}
               key={index}
-              alt="movie"
-            />
-          );
-        })}
-        {movies?.tvShows?.map((data, index) => {
-          return (
-            <C.Movie
-              onClick={() => handleVideo(data)}
-              src={data.imageSmall}
-              key={index}
-              alt="movie"
+              alt={data?.title}
             />
           );
         })}

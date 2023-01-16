@@ -1,10 +1,8 @@
 import { useState } from "react";
+
 import { Background } from "./components/background";
 import { Header } from "./components/header";
-
-import * as C from "./style";
-
-import PlayImage from "./assets/play.svg";
+import { DescriptionMovies } from "./components/description-movies";
 import { Movies } from "./components/movies";
 import { Video } from "./components/video";
 
@@ -14,15 +12,11 @@ function App() {
   const [video, setVideo] = useState(apiData?.movies[0]);
   const [play, setPlay] = useState(false);
 
-  const backgroundImage = video?.imageBanner;
-  const title = video?.title;
-  const subTitle = video?.subTitle;
-  const description = video?.description;
-  const videoId = video?.linkVideo;
+  const { title, description, linkVideo, imageBanner } = video;
 
   const handleVideo = (videoData) => {
     setVideo(videoData);
-    window.scrollTo({ top: 0, behavior: "smooth" });
+    window.scrollTo({ top: 0 });
   };
 
   const removeVideo = () => {
@@ -30,32 +24,25 @@ function App() {
   };
 
   const handlePlayVideo = () => {
-    if (videoId) {
+    if (linkVideo) {
       setPlay(true);
     }
   };
 
   return (
     <>
-      <Background background={backgroundImage}>
+      <Background background={imageBanner}>
         <Header />
-
-        <C.ContainerDescription>
-          <C.Title>{title}</C.Title>
-          <C.SubTitle>{subTitle}</C.SubTitle>
-          <C.Description>{description}</C.Description>
-          <C.Button onClick={handlePlayVideo}>
-            <img src={PlayImage} alt="play" />
-            Watch Now
-          </C.Button>
-        </C.ContainerDescription>
-
+        <DescriptionMovies
+          title={title}
+          description={description}
+          handlePlayVideo={handlePlayVideo}
+        />
         <Movies
           movies={apiData}
           handleVideo={(videoData) => handleVideo(videoData)}
         />
-
-        <Video play={play} videoId={videoId} removeVideo={removeVideo} />
+        <Video play={play} videoId={linkVideo} removeVideo={removeVideo} />
       </Background>
     </>
   );

@@ -2,7 +2,6 @@ export const apiData = {
   movies: [
     {
       title: "Adão Negro",
-      subTitle: "",
       description:
         "O poderoso Adão Negro é libertado de sua tumba para lançar sua justiça cruel sobre a Terra.",
       imageSmall:
@@ -12,7 +11,6 @@ export const apiData = {
     },
     {
       title: "A Mulher Rei",
-      subTitle: "",
       description:
         "Em 1800, o general Nanisca treina um grupo de mulheres guerreiras para proteger o reino africano de Dahomey de um inimigo estrangeiro.",
       imageSmall:
@@ -22,7 +20,6 @@ export const apiData = {
     },
     {
       title: "Não! Não Olhe!",
-      subTitle: "",
       description:
         "Os cuidadores de um rancho de cavalos na Califórnia encontram uma força misteriosa que afeta o comportamento humano e animal.",
       imageSmall:
@@ -33,7 +30,6 @@ export const apiData = {
     },
     {
       title: "Top Gun: Maverick",
-      subTitle: "",
       description:
         "Depois de mais de 30 anos de serviço como um dos principais aviadores da Marinha, Pete 'Maverick' Mitchell está de volta, rompendo os limites como um piloto de testes corajoso. No mundo contemporâneo das guerras tecnológicas, Maverick enfrenta drones e prova que o fator humano ainda é essencial.",
       imageSmall:
@@ -44,7 +40,6 @@ export const apiData = {
     },
     {
       title: "Jurassic World: Domínio",
-      subTitle: "",
       description:
         "Quatro anos após a destruição da Ilha Nublar, os dinossauros agora vivem e caçam ao lado de humanos em todo o mundo. Esse frágil equilíbrio remodela o futuro e deve determinar de uma vez por todas se os seres humanos continuarão sendo a espécie dominante em um planeta que agora compartilham com as criaturas mais temíveis da história",
       imageSmall:
@@ -54,7 +49,6 @@ export const apiData = {
     },
     {
       title: "Thor Amor e Trovão",
-      subTitle: "",
       description:
         "Thor busca por paz, mas seus planos são interrompidos por Gorr, o Carniceiro dos Deuses, um assassino galáctico. Para combater esta ameaça, ele pede que Rei Valquíria, Korg e Jane Foster o ajudem.",
       imageSmall:
@@ -64,7 +58,6 @@ export const apiData = {
     },
     {
       title: "Homem-Aranha: Sem Volta para Casa",
-      subTitle: "",
       description:
         "Peter Parker tem a sua identidade secreta revelada e pede ajuda ao Doutor Estranho. Quando um feitiço para reverter o evento não sai como o esperado, o Homem-Aranha e seu companheiro dos Vingadores precisam enfrentar inimigos de todo o multiverso.",
       imageSmall:
@@ -74,7 +67,6 @@ export const apiData = {
     },
     {
       title: "Avatar: O Caminho da Água",
-      subTitle: "",
       description:
         "Após formar uma família, Jake Sully e Ney'tiri fazem de tudo para ficarem juntos. No entanto, eles devem sair de casa e explorar as regiões de Pandora quando uma antiga ameaça ressurge, e Jake deve travar uma guerra difícil contra os humanos.",
       imageSmall:
@@ -85,7 +77,6 @@ export const apiData = {
     },
     {
       title: "The Batman",
-      subTitle: "",
       description:
         "Após dois anos espreitando as ruas como Batman, Bruce Wayne se encontra nas profundezas mais sombrias de Gotham City. Com poucos aliados confiáveis, o vigilante solitário se estabelece como a personificação da vingança para a população.",
       imageSmall:
@@ -96,7 +87,6 @@ export const apiData = {
     },
     {
       title: "Vingadores: Ultimato",
-      subTitle: "",
       description:
         "Após Thanos eliminar metade das criaturas vivas, os Vingadores têm de lidar com a perda de amigos e entes queridos. Com Tony Stark vagando perdido no espaço sem água e comida, Steve Rogers e Natasha Romanov lideram a resistência contra o titã louco.",
       imageSmall:
@@ -108,7 +98,6 @@ export const apiData = {
   tvShows: [
     {
       title: "Dragon Ball Super",
-      subTitle: "",
       description:
         "Dragon Ball Super é uma série de anime criada por Akira Toriyama e produzida pela Toei Animation, que começou a ser exibida em 5 de julho de 2015 e teve seu ultimo episódio exibido em 25 de março de 2018 com um total de 131 episódios. ",
       imageSmall:
@@ -118,7 +107,6 @@ export const apiData = {
     },
     {
       title: "Eu, a Patroa e as Crianças",
-      subTitle: "",
       description:
         "O amoroso pai de família Michael Kyle engravidou Janet quando ela ainda era uma adolescente. Os dois se casaram e tiveram três filhos, mas o fantasma de sua própria história faz com que Michael alimente um verdadeiro pavor de que o mesmo aconteça com seus filhos. Por isso, ele sonha com uma família à moda antiga, mas, na prática, vive uma realidade bem diferente.",
       imageSmall:
@@ -129,7 +117,6 @@ export const apiData = {
     },
     {
       title: "Os Simpsons",
-      subTitle: "",
       description:
         "Esta comédia animada de enorme sucesso gira em torno da família de mesmo nome que mora na cidade de Springfield, em um estado americano sem nome. O pai, Homer, não é um típico homem de família. Empregado de uma usina nuclear, ele faz o melhor para comandar sua família, mas frequentemente se vê comandado. A família inclui ainda a carinhosa mãe de cabelo azul Marge, o filho encrenqueiro Bart, a talentosa filha Lisa e a bebê Maggie.",
       imageSmall:
@@ -140,7 +127,6 @@ export const apiData = {
     },
     {
       title: "Chaves",
-      subTitle: "",
       description:
         "Acompanhe o dia a dia de Chaves, um menino pobre que passa sua infância em uma pequena vila ao lado de seus amigos, Chiquinha e Kiko. Ele cria complicações para os adultos Seu Madruga, Seu Barriga, Professor Girafales, Dona Florinda e a Bruxa do 71.",
       imageSmall:
@@ -151,7 +137,6 @@ export const apiData = {
     },
     {
       title: "Todo Mundo Odeia o Chris",
-      subTitle: "",
       description:
         "Chris é um adolescente crescendo no Broolkyn dos anos 80 com uma excêntrica família composta pelo pai Julius, sua mãe Rochelle, sua irmã mimada Tonya e seu irmão Drew, que é bastante popular.",
       imageSmall:
@@ -162,7 +147,6 @@ export const apiData = {
     },
     {
       title: "Os Cavaleiros do Zodíaco",
-      subTitle: "",
       description:
         "Saint Seiya ou Os Cavaleiros do Zodíaco é uma série japonesa de mangá e anime escrito e ilustrada por Masami Kurumada.",
       imageSmall:
@@ -173,7 +157,6 @@ export const apiData = {
     },
     {
       title: "Naruto Shippuden",
-      subTitle: "",
       description:
         "Naruto Shippuden é a segunda parte do anime Naruto, que adapta a continuação do mangá original escrito por Masashi Kishimoto e consiste em 500 episódios ao todo. ",
       imageSmall:
@@ -183,7 +166,6 @@ export const apiData = {
     },
     {
       title: "Bob Esponja",
-      subTitle: "",
       description:
         "A série narra as aventuras e os empreendimentos do personagem-título e de seus diversos amigos na fictícia cidade subaquática de Bikini Bottom.",
       imageSmall:
@@ -194,7 +176,6 @@ export const apiData = {
     },
     {
       title: "X-Men: Evolution",
-      subTitle: "",
       description:
         "Professor X reúne uma equipe de jovens mutantes sobre-humanos para salvar o mundo das forças do mal.",
       imageSmall:
@@ -205,7 +186,6 @@ export const apiData = {
     },
     {
       title: "Pica-Pau",
-      subTitle: "",
       description:
         "Pica-pau é um personagem da série estadunidense de mesmo nome, um pica-pau antropomórfico, que estrelou vários curta-metragens de animação produzidos pelo estúdio de Walter Lantz e distribuídos pela Universal Pictures.",
       imageSmall:
@@ -213,5 +193,10 @@ export const apiData = {
       imageBanner: "https://i.ytimg.com/vi/mTMiQ6d07nM/maxresdefault.jpg",
       linkVideo: "tZKdwdejvZg",
     },
+  ],
+
+  categories: [
+    { name: "Movies", type: "movies" },
+    { name: "TV Shows", type: "tvShows" },
   ],
 };

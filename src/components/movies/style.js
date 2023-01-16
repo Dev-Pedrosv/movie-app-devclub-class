@@ -31,9 +31,10 @@ export const Text = styled.p`
 `;
 
 export const Movie = styled.img`
-  width: 204px;
+  width: 200px;
   height: 290px;
   cursor: pointer;
+  border-radius: 20px;
 
   transform: scale(0.9);
   transition: 0.3s;

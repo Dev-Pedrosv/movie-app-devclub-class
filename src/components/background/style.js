@@ -10,7 +10,5 @@ export const BackgroundImage = styled.div`
 `;
 
 export const BackgroundGradient = styled.div`
-  width: inherit;
-  min-height: inherit;
   background: linear-gradient(to top, #111 60%, transparent 100%);
 `;

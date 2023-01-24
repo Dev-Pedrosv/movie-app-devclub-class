@@ -8,6 +8,7 @@ export const apiData = {
         "https://cineclick-static.flixmedia.cloud/480/ca0e1997-1886-49a8-a014-d801b229f229.webp",
       imageBanner: "https://images8.alphacoders.com/127/thumb-1920-1274206.jpg",
       linkVideo: "HluMG9tJXHM",
+      category: "movies",
     },
     {
       title: "A Mulher Rei",
@@ -17,6 +18,7 @@ export const apiData = {
         "https://vertentesdocinema.com/wp-content/uploads/2022/09/amr-cartazteaser-online-1400x2100px-data.jpg",
       imageBanner: "https://images8.alphacoders.com/125/1253813.jpg",
       linkVideo: "u1HTd_VVICQ",
+      category: "movies",
     },
     {
       title: "Não! Não Olhe!",
@@ -27,6 +29,7 @@ export const apiData = {
       imageBanner:
         "https://midianinja.org/files/2022/09/naonaoolhepipocasclub.jpg",
       linkVideo: "l05c7Z8aD0Q",
+      category: "movies",
     },
     {
       title: "Top Gun: Maverick",
@@ -37,6 +40,7 @@ export const apiData = {
       imageBanner:
         "https://ntvb.tmsimg.com/assets/p14325539_v_h8_aj.jpg?w=960&h=540",
       linkVideo: "7aOCYTflp8o",
+      category: "movies",
     },
     {
       title: "Jurassic World: Domínio",
@@ -46,6 +50,7 @@ export const apiData = {
         "https://oregional.com.br/media/blog/700ba1039467a09248591758e0f51869.jpg",
       imageBanner: "https://images6.alphacoders.com/123/1239922.jpg",
       linkVideo: "hcv_8WXSetM",
+      category: "movies",
     },
     {
       title: "Thor Amor e Trovão",
@@ -55,6 +60,7 @@ export const apiData = {
         "https://upload.wikimedia.org/wikipedia/pt/0/08/Thor_Love_and_Thunder_poster.jpg",
       imageBanner: "https://images3.alphacoders.com/124/1241167.png",
       linkVideo: "1c_W_4cNLn0",
+      category: "movies",
     },
     {
       title: "Homem-Aranha: Sem Volta para Casa",
@@ -64,6 +70,7 @@ export const apiData = {
         "https://upload.wikimedia.org/wikipedia/pt/thumb/0/00/Spider-Man_No_Way_Home_poster.jpg/250px-Spider-Man_No_Way_Home_poster.jpg",
       imageBanner: "https://images8.alphacoders.com/121/1218962.jpg",
       linkVideo: "FDNNHh7TRN0",
+      category: "movies",
     },
     {
       title: "Avatar: O Caminho da Água",
@@ -74,6 +81,7 @@ export const apiData = {
       imageBanner:
         "https://www.showmetech.com.br/wp-content/uploads//2022/12/Avatar-2-encanta-com-novas-imagens-reveladas-1280x720-1.webp",
       linkVideo: "QxJQbWOIK4s",
+      category: "movies",
     },
     {
       title: "The Batman",
@@ -84,6 +92,7 @@ export const apiData = {
       imageBanner:
         "https://c4.wallpaperflare.com/wallpaper/117/891/681/robert-pattinson-the-batman-2021-movies-artwork-batman-hd-wallpaper-preview.jpg",
       linkVideo: "fbS0efVvkVU",
+      category: "movies",
     },
     {
       title: "Vingadores: Ultimato",
@@ -93,9 +102,8 @@ export const apiData = {
         "https://upload.wikimedia.org/wikipedia/pt/thumb/9/9b/Avengers_Endgame.jpg/250px-Avengers_Endgame.jpg",
       imageBanner: "https://images8.alphacoders.com/100/thumb-1920-1003220.png",
       linkVideo: "g6ng8iy-l0U",
+      category: "movies",
     },
-  ],
-  tvShows: [
     {
       title: "Dragon Ball Super",
       description:
@@ -104,6 +112,7 @@ export const apiData = {
         "https://www.crunchyroll.com/imgsrv/display/thumbnail/480x720/catalog/crunchyroll/98ea4207e23a2ea3e3af39ad641d8800.jpeg",
       imageBanner: "https://wallpapercave.com/wp/wp7234618.png",
       linkVideo: "p0pGrdaejHk",
+      category: "tvShows",
     },
     {
       title: "Eu, a Patroa e as Crianças",
@@ -114,6 +123,7 @@ export const apiData = {
       imageBanner:
         "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/A60067F8B1D8399FC9060DD1EDBC1EAB6032A04C33B8113F042FE93F720CE97A/scale?width=1200&aspectRatio=1.78&format=jpeg",
       linkVideo: "WrtAUOYGrM0",
+      category: "tvShows",
     },
     {
       title: "Os Simpsons",
@@ -124,6 +134,7 @@ export const apiData = {
       imageBanner:
         "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/48478743BB7ADB3F0C4B5AF58E185BB295E9B849FAD0EB124676EB47F3889AB9/scale?width=1200&aspectRatio=1.78&format=jpeg",
       linkVideo: "iNoczqfPhEM",
+      category: "tvShows",
     },
     {
       title: "Chaves",
@@ -134,6 +145,7 @@ export const apiData = {
       imageBanner:
         "https://imagens.brasil.elpais.com/resizer/xdswXhpcImNBn1gIVao9L05t_HU=/1960x1103/cloudfront-eu-central-1.images.arcpublishing.com/prisa/WZF3MMB4ONHUTB5KBSMFZ7L2OI.JPG",
       linkVideo: "OoPD3Y4vvGA",
+      category: "tvShows",
     },
     {
       title: "Todo Mundo Odeia o Chris",
@@ -144,6 +156,7 @@ export const apiData = {
       imageBanner:
         "https://img.olhardigital.com.br/wp-content/uploads/2022/08/todo-mundo-odeia-o-chris.jpg",
       linkVideo: "ENJpXh5Q9zM",
+      category: "tvShows",
     },
     {
       title: "Os Cavaleiros do Zodíaco",
@@ -154,6 +167,7 @@ export const apiData = {
       imageBanner:
         "https://sm.ign.com/t/ign_br/screenshot/default/os-cavaleiros-do-zodiaco-na-tv_ejjr.1280.jpg",
       linkVideo: "gbflnX9pfW8",
+      category: "tvShows",
     },
     {
       title: "Naruto Shippuden",
@@ -163,6 +177,7 @@ export const apiData = {
         "https://www.crunchyroll.com/imgsrv/display/thumbnail/480x720/catalog/crunchyroll/01ec367b44f0a568430a957e042639af.jpe",
       imageBanner: "https://img.ibxk.com.br/2021/10/05/05091942528062.jpg",
       linkVideo: "ubWWAiVqa-w",
+      category: "tvShows",
     },
     {
       title: "Bob Esponja",
@@ -173,6 +188,7 @@ export const apiData = {
       imageBanner:
         "https://recreio.uol.com.br/media/_versions/animacoes/bob_esponja_capa_widelg.jpg",
       linkVideo: "tr_Mv2yCFLw",
+      category: "tvShows",
     },
     {
       title: "X-Men: Evolution",
@@ -183,6 +199,7 @@ export const apiData = {
       imageBanner:
         "https://d2d7ho1ae66ldi.cloudfront.net/ArquivoNoticias/7a2f858c-2a1f-11ed-aa6e-9587410378a2/x-men-evo.jpg",
       linkVideo: "JhTEaoMJvX0",
+      category: "tvShows",
     },
     {
       title: "Pica-Pau",
@@ -192,6 +209,7 @@ export const apiData = {
         "https://img.redbull.com/images/c_crop,x_454,y_0,h_720,w_576/c_fill,w_400,h_540/q_auto:low,f_auto/redbullcom/2018/09/20/6cb9b120-96c3-4ea0-879e-2a6b476abb2d/pica-pau-collab-70-animadores-01",
       imageBanner: "https://i.ytimg.com/vi/mTMiQ6d07nM/maxresdefault.jpg",
       linkVideo: "tZKdwdejvZg",
+      category: "tvShows",
     },
   ],
 

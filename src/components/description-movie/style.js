@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
-export const ContainerDescription = styled.div`
-  width: 500px;
+export const Container = styled.div`
+  width: 520px;
   padding: 50px 60px 20px;
   display: flex;
   flex-direction: column;
@@ -14,32 +14,26 @@ export const ContainerDescription = styled.div`
   }
 `;
 
-export const Title = styled.p`
+export const Title = styled.h1`
   font-weight: 700;
   font-size: 40px;
-  color: #ffffff;
-`;
-
-export const SubTitle = styled.p`
-  font-weight: 700;
-  font-size: 32px;
-  color: #ffffff;
+  color: #fff;
 `;
 
 export const Description = styled.p`
   font-weight: 500;
   font-size: 16px;
-  color: #ffffff;
+  color: #fff;
   opacity: 0.7;
 `;
 
 export const Button = styled.button`
-  width: 193px;
+  width: 194px;
   height: 56px;
   margin-top: 16px;
 
   background: #fa4776;
-  border-radius: 41px;
+  border-radius: 40px;
 
   border: none;
   display: flex;
@@ -48,11 +42,8 @@ export const Button = styled.button`
   gap: 16px;
 
   font-weight: 600;
-  font-size: 14px;
-  line-height: 23px;
-  letter-spacing: 0.04em;
-  color: #ffffff;
-
+  font: 14px;
+  color: #fff;
   transition: 0.3s;
 
   &:hover {

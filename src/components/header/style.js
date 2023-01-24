@@ -18,13 +18,11 @@ export const Container = styled.header`
   }
 
   a {
-    font-style: normal;
     font-size: 20px;
     line-height: 25px;
     letter-spacing: 0.03em;
     color: #ffffff;
     transition: 0.3s;
-    cursor: pointer;
     text-decoration: none;
     position: relative;
 
@@ -53,8 +51,6 @@ export const Container = styled.header`
   }
 
   img {
-    width: 100px;
-
     @media (max-width: 560px) {
       width: 80px;
     }

@@ -1,17 +1,16 @@
-import * as C from "./style";
-
-import Logo from "../../assets/logo.svg";
+import { Container } from "./style";
+import logoImage from "../../assets/logo.svg";
 
 export const Header = () => {
   return (
-    <C.Container>
-      <img src={Logo} alt="logo" />
+    <Container>
+      <img src={logoImage} alt="logo" />
 
       <nav>
-        <a href="#Movies">Movies</a>
-        <a href="#TVShows">TV Shows</a>
+        <a href="#movies">Movies</a>
+        <a href="#tvShows">Tv Shows</a>
         <a href="#All">All</a>
       </nav>
-    </C.Container>
+    </Container>
   );
 };

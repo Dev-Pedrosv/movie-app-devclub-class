@@ -12,7 +12,6 @@ export const Container = styled.div`
     background: rgba(103, 101, 113, 0.34);
     border: 1px solid rgba(255, 255, 255, 0.14);
     backdrop-filter: blur(10px);
-
     border-radius: 24px;
 
     & li {
@@ -22,6 +21,7 @@ export const Container = styled.div`
     }
   }
 `;
+
 export const Text = styled.p`
   font-weight: 600;
   font-size: 20px;
@@ -41,9 +41,5 @@ export const Movie = styled.img`
 
   &:hover {
     transform: scale(1);
-  }
-
-  @media (max-width: 560px) {
-    height: 220px;
   }
 `;

@@ -1,8 +1,8 @@
 import { BackgroundImage, BackgroundGradient } from "./style";
 
-export const Background = ({ background, children }) => {
+export const Background = ({ children, imageBanner }) => {
   return (
-    <BackgroundImage background={background}>
+    <BackgroundImage bgImage={imageBanner}>
       <BackgroundGradient>{children}</BackgroundGradient>
     </BackgroundImage>
   );

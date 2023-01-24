@@ -1,9 +1,9 @@
-import * as C from "./style";
-
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
-export const Movies = ({ movies, handleVideo }) => {
+import * as C from "./style";
+
+export const Movies = ({ data, handleVideo }) => {
   const responsive = {
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
@@ -20,27 +20,24 @@ export const Movies = ({ movies, handleVideo }) => {
   };
 
   const getMovies = (category) => {
-    return category ? movies[category] : [];
-  };
-
-  const getAllMovies = () => {
-    return [...movies?.movies, ...movies?.tvShows];
+    return data?.movies?.filter((movie) => movie?.category === category);
   };
 
   return (
     <C.Container>
-      {movies?.categories.map((category) => (
+      {data?.categories?.map((category) => (
         <>
-          <C.Text key={category?.name} id="category">
+          <C.Text key={category?.type} id={category?.type}>
             {category?.name}
           </C.Text>
+
           <Carousel responsive={responsive}>
-            {getMovies(category?.type)?.map((data, index) => (
+            {getMovies(category?.type).map((data, index) => (
               <C.Movie
-                onClick={() => handleVideo(data)}
-                src={data.imageSmall}
-                key={index}
+                src={data?.imageSmall}
                 alt={data?.title}
+                key={index}
+                onClick={() => handleVideo(data)}
               />
             ))}
           </Carousel>
@@ -50,16 +47,14 @@ export const Movies = ({ movies, handleVideo }) => {
       <C.Text id="All">All</C.Text>
 
       <Carousel responsive={responsive}>
-        {getAllMovies().map((data, index) => {
-          return (
-            <C.Movie
-              onClick={() => handleVideo(data)}
-              src={data.imageSmall}
-              key={index}
-              alt={data?.title}
-            />
-          );
-        })}
+        {data?.movies.map((data, index) => (
+          <C.Movie
+            src={data?.imageSmall}
+            alt={data?.title}
+            key={index}
+            onClick={() => handleVideo(data)}
+          />
+        ))}
       </Carousel>
     </C.Container>
   );
